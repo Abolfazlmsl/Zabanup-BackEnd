@@ -1,0 +1,26 @@
+# ignore an entire directory
+/.idea/
+/core/__pycache__/
+/core/migrations/
+/static/media/
+/venv/
+/__pycache__/
+/admin/
+/media/
+
+# ignore a file type
+# *.json
+*.pyc
+*.sqlite3
+*.xml
+
+# add an exception (using !) to the preceding rule to track a specific file
+# !package.json
+
+# ignore a single file
+# mycode.class
+/core/__init__.py
+/LanguageExam/__init__.py
+/Reading/api/__init__.py
+__init__.py
+passenger_wsgi.py
